@@ -1,7 +1,7 @@
 class Solution {
     public long countGood(int[] nums, int k) {
         int n = nums.length;
-        // If k is 0, every subarray is good.
+        // If k is 0, every subarray is good..
         if (k == 0) {
             return (long) n * (n + 1) / 2;
         }
