@@ -1,6 +1,6 @@
 class Solution {
     public String countAndSay(int n) {
-        // Base case: the first element is "1"
+        // Base case: the first element is "1".
         String s = "1";
         // Generate the sequence iteratively from 2 up to n
         for (int i = 2; i <= n; i++) {
