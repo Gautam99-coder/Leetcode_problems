@@ -6,7 +6,7 @@ class Solution {
             freq[c - 'a']++;
         }
 
-        // 2) Find the largest odd freq and smallest even freq (only for letters that appear)
+        /// 2) Find the largest odd freq and smallest even freq (only for letters that appear)
         int maxOdd = Integer.MIN_VALUE;
         int minEven = Integer.MAX_VALUE;
 
